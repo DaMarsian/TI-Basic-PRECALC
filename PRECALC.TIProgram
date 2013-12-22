@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>GridOff
+AxesOff
+Lbl 0
+Menu("PreCalculus","Law of Sines",1,"Law of Cosines",2,"Vectors",3,"Quit",4)
+Lbl 1
+ClrHome
+ClrDraw
+Menu("Law of Sines","Equations",A,"Usage",B,"Main",C)
+Lbl A
+ClrHome
+ClrDraw
+Text(0,0,"sinA/a=sinB/b=sinC/c")
+Pause
+ClrHome
+ClrDraw
+Goto 1
+Lbl B
+ClrHome
+ClrDraw
+Text(0,0,"AAS,ASA,SSA = Sin")
+Pause
+ClrDraw
+Text(0,0,"SSS,SAS = Cos")
+Pause
+ClrDraw
+Text(0,0,"SSS = 0,1,2 Solutions")
+Pause
+ClrHome
+ClrDraw
+Goto 1
+Lbl C
+Goto 0
+Lbl 2
+ClrHome
+ClrDraw
+Menu("Law of Cosines","Equations",D,"Main",E)
+Lbl D
+ClrHome
+ClrDraw
+Text(0,0,"a^2=b^2+c^2-2bcCosA")
+Pause
+ClrDraw
+Text(0,0,"b^2=a^2+c^2-2acCosB")
+Pause
+ClrDraw
+Text(0,0,"c^2=a^2+b^2-2abCosC")
+Pause
+ClrDraw
+Text(0,0,"CosA=b^2+c^2-a^2/2bc")
+Pause
+ClrDraw
+Text(0,0,"CosB=a^2+c^2-b^2/2ac")
+Pause
+ClrDraw
+Text(0,0,"CosC=a^2+b^2-c^2/2ab")
+Pause
+ClrDraw
+Goto 2
+Lbl E
+Goto 0
+ClrHome
+ClrDraw
+Lbl 3
+ClrHome
+ClrDraw
+Menu("Vectors","Equations",F,"Main",G)
+Lbl F
+ClrHome
+ClrDraw
+Text(0,0,"&lt;Q1-P1,Q2-P2&gt; = &lt;v1,v2&gt; = v")
+Pause
+ClrDraw
+Text(0,0,"||v||=√(v1^2+v2^2)")
+Pause
+ClrDraw
+Text(0,0,"Vector Add. v+u = (a+c,b+d)")
+Pause
+ClrDraw
+Text(0,0,"Vector Sub. v-u = (a-c,b-d)")
+Pause
+ClrDraw
+Text(0,0,"Scalar Mult. kv = k(a,b)")
+Pause
+ClrDraw
+Text(0,0,"Unit Vector (mag. 1)")
+Pause
+ClrDraw
+Text(0,0," = u = v/||v||")
+Pause
+ClrDraw
+Text(0,0,"x=rcosθ")
+Pause
+ClrDraw
+Text(0,0,"y=rsinθ")
+Pause
+ClrDraw
+Text(0,0,"DP = u*v = u1v1+u2v2")
+Pause
+ClrDraw
+Text(0,0,"cosθ = u*v/||u||*||v||")
+Pause
+ClrDraw
+Goto 3
+Lbl G
+Goto 0
+Lbl 4
+Goto Home
+
+
+
+</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>PRECALC</string>
+	<key>device type</key>
+	<string>TI-84 Plus C Silver Edition</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>
